@@ -24,13 +24,16 @@ body {
   
   h1 {
     font-size: 52px;
-    color: rgb(235, 21, 21);
+    color: rgb(254, 90, 40);
     margin: 10px 0;
     font-family: "Great Vibes", cursive;
   }
   
   h2 { 
     font-family: "Great Vibes", cursive;
+    font-size: 46px;
+    font-weight: bold;
+    color: rgb(255, 255, 255,);
   }
   
   ul {
@@ -57,8 +60,8 @@ body {
       45deg,
       transparent,
       transparent 10px,
-      rgb(17, 16, 16) 250px,
-      rgb(10, 10, 10) 20px
+      rgb(2, 2, 2) 250px,
+      rgb(2, 2, 2) 20px
     );
   }
   
@@ -66,7 +69,7 @@ body {
     font-size: 2.5vh;
     margin-top: 4vh;
     padding-top: 4vh;
-    background-color: rgb(240, 15, 15);
+    background-color: rgba(254, 90, 40, 0.879);
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     height: 7vh;
@@ -76,7 +79,7 @@ body {
   }
   
   #beer-list li:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.94);
   }
 
   .beer-details h2 {
@@ -88,7 +91,7 @@ body {
   
   .beer-details h4 {
     font-size: 18px;
-    color: rgb(237, 23, 23);
+    color: rgb(254, 90, 40);
   }
   
   .beer-details img {
@@ -106,7 +109,7 @@ body {
     display: block;
     width: 100%;
     height: 40px;
-    border: 1px solid rgb(235, 12, 12);
+    border: 1px solid rgb(254, 90, 40);
     padding: 5px;
     font-size: 14px;
     margin-bottom: 10px;
@@ -117,7 +120,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: rgb(242, 22, 22);
+    background-color: rgb(254, 90, 40);
     color: #fff;
     padding: 7px 10px;
     cursor: pointer;
